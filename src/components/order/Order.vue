@@ -164,7 +164,6 @@ export default {
       // console.log(this.progressInfo);
     },
   },
-  computed: {},
 };
 </script>
 
