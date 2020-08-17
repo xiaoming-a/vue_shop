@@ -1,11 +1,6 @@
 <template>
   <div class="login_container">
     <div class="login_box">
-      <!-- 头像区域 -->
-      <div class="avatar_box">
-        <img src="../assets/logo.png" alt />
-      </div>
-
       <!-- 登录区域 -->
       <el-form
         ref="loginFormRef"
@@ -119,13 +114,6 @@ export default {
   left: 50%;
   transform: translate(-50%, 7%);
   background-color: #ffffff;
-
-  img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #eee;
-  }
 }
 .login_form {
   position: absolute;
